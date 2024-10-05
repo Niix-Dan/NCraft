@@ -22,8 +22,10 @@ public class PlayerTickHandler implements ServerTickEvents.StartTick {
                 float sanity = dataPlayer.getPersistentData().getFloat("sanity");
 
                 if(ModDimensions.isOblivionDimension(player.getWorld())) {
+                    // Suposto a zerar a sanidade após 10 minutos \/
                     SanityData.removeSanity(dataPlayer, 0.1667f);
                 } else {
+                    // Suposto a recuperar toda a sanidade após 3,33 minutos \/
                     SanityData.addSanity(dataPlayer, 0.5f);
                 }
             }
