@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "ncraft:block/white_cedar_stripped_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "ncraft:block/white_cedar_stripped_log"
+    },
+    "axis=z": {
+      "model": "ncraft:block/white_cedar_stripped_log_horizontal",
+      "x": 90
+    }
+  }
+}

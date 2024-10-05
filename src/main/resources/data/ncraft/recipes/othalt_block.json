@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "ncraft:othalt_ingot"
+    }
+  },
+  "result": {
+    "item": "ncraft:othalt_block"
+  }
+}

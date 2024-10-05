@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_trapdoor_top",
+  "textures": {
+    "texture": "ncraft:block/white_cedar_trapdoor"
+  }
+}

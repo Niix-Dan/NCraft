@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "ncraft:othalt_block",
+    "ncraft:othalt_ore",
+    "ncraft:deepslate_othalt_ore"
+  ]
+}

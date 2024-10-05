@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ncraft:othalt_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "ncraft:othalt_ingot"
+  }
+}

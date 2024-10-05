@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "ncraft:block/white_cedar_stripped_log_top",
+    "side": "ncraft:block/white_cedar_stripped_log"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "ncraft:block/white_cedar_slab"
+    },
+    "type=double": {
+      "model": "ncraft:block/white_cedar_planks"
+    },
+    "type=top": {
+      "model": "ncraft:block/white_cedar_slab_top"
+    }
+  }
+}

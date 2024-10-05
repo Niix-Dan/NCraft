@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "ncraft",
+  "version": "${version}",
+  "name": "NCraft",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/Niix/NCraft"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/ncraft/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "niix.dan.ncraft.NCraftClient"
+    ],
+    "main": [
+      "niix.dan.ncraft.NCraft"
+    ]
+  },
+  "mixins": [
+    "ncraft.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

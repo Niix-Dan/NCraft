@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    "ncraft:white_cedar_log",
+    "ncraft:white_cedar_wood",
+    "ncraft:white_cedar_stripped_wood",
+    "ncraft:white_cedar_stripped_log"
+  ]
+}

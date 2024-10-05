@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": [
+      { "model": "ncraft:block/void_grass" }
+    ]
+  }
+}

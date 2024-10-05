@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "ncraft:block/white_cedar_sapling"
+  }
+}

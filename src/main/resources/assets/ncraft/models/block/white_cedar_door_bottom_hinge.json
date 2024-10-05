@@ -1,0 +1,7 @@
+{
+  "parent": "ncraft:block/door_bottom_rh",
+  "textures": {
+    "top": "ncraft:block/white_cedar_door_top",
+    "bottom": "ncraft:block/white_cedar_door_bottom"
+  }
+}

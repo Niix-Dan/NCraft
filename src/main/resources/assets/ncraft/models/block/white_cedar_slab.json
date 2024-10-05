@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "ncraft:block/white_cedar_planks",
+    "top": "ncraft:block/white_cedar_planks",
+    "side": "ncraft:block/white_cedar_planks"
+  }
+}

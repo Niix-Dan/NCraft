@@ -1,0 +1,54 @@
+{
+  "item.ncraft.othalt_pickaxe": "Othalt Pickaxe",
+  "item.ncraft.othalt_sword": "Othalt Sword",
+  "item.ncraft.othalt_axe": "Othalt Axe",
+  "item.ncraft.othalt_shovel": "Othalt Shovel",
+  "item.ncraft.othalt_hoe": "Othalt Hoe",
+
+  "item.ncraft.fragment": "Sanity Fragment",
+
+  "item.ncraft.raw_othalt": "Raw Othalt",
+  "item.ncraft.othalt_ingot": "Othalt Ingot",
+
+  "item.ncraft.othalt_ore": "Othalt Ore",
+  "item.ncraft.deepslate_othalt_ore": "Deepslate Othalt Ore",
+  "item.ncraft.othalt_block": "Othalt Block",
+
+  "item.ncraft.void": "Void",
+  "item.ncraft.void_grass": "Void Grass",
+
+  "item.ncraft.white_cedar_log": "Cedar Log",
+  "item.ncraft.white_cedar_stripped_log": "Cedar Stripped Log",
+  "item.ncraft.white_cedar_wood": "Cedar Wood",
+  "item.ncraft.white_cedar_stripped_wood": "Cedar Stripped Wood",
+  "item.ncraft.white_cedar_door": "Cedar Door",
+  "item.ncraft.white_cedar_leaves": "Cedar Leaves",
+  "item.ncraft.white_cedar_planks": "Cedar Planks",
+  "item.ncraft.white_cedar_trapdoor": "Cedar Trapdoor",
+  "item.ncraft.white_cedar_stairs": "Cedar Stairs",
+  "item.ncraft.white_cedar_slab": "Cedar Slab",
+  "item.ncraft.white_cedar_sapling": "Cedar Sapling",
+
+  "block.ncraft.othalt_ore": "Othalt Ore",
+  "block.ncraft.deepslate_othalt_ore": "Deepslate Othalt Ore",
+  "block.ncraft.othalt_block": "Othalt Block",
+  "block.ncraft.white_cedar_log": "Cedar Log",
+  "block.ncraft.white_cedar_stripped_log": "Cedar Stripped Log",
+  "block.ncraft.white_cedar_wood": "Cedar Wood",
+  "block.ncraft.white_cedar_stripped_wood": "Cedar Stripped Wood",
+  "block.ncraft.white_cedar_door": "Cedar Door",
+  "block.ncraft.white_cedar_leaves": "Cedar Leaves",
+  "block.ncraft.white_cedar_planks": "Cedar Planks",
+  "block.ncraft.white_cedar_trapdoor": "Cedar Trapdoor",
+  "block.ncraft.white_cedar_stairs": "Cedar Stairs",
+  "block.ncraft.white_cedar_slab": "Cedar Slab",
+  "block.ncraft.white_cedar_sapling": "Cedar Sapling",
+
+  "block.ncraft.void": "Void",
+  "block.ncraft.void_grass": "Void Grass",
+
+  "itemGroup.ncraft.nicraft": "NiCraft",
+
+  "biome.ncraft.oblivion_depths": "Oblivion",
+  "dimension.ncraft.oblivion": "Oblivion"
+}

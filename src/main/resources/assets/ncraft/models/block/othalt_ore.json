@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ncraft:block/othalt_ore"
+  },
+  "render_type": "solid"
+}

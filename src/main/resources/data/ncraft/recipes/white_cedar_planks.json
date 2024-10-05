@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "ncraft:white_cedar_logs"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "ncraft:white_cedar_planks"
+  }
+}

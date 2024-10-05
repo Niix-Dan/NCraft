@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "ncraft:block/white_cedar_stripped_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "ncraft:block/white_cedar_stripped_wood"
+    },
+    "axis=z": {
+      "model": "ncraft:block/white_cedar_stripped_wood",
+      "x": 90
+    }
+  }
+}
