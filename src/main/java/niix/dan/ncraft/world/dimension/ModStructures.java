@@ -11,7 +11,7 @@ public class ModStructures {
 
     public static void register() {
 
-        NCraft.LOGGER.debug("Registerind ModStructures for "+NCraft.MOD_ID);
+        NCraft.LOGGER.debug("Registering ModStructures for "+NCraft.MOD_ID);
 
         SPIKE_STRUCTURES = Registry.register(Registry.STRUCTURE_TYPE,
                 new Identifier(NCraft.MOD_ID, "spike_structures"), () -> SpikeStructures.CODEC);
