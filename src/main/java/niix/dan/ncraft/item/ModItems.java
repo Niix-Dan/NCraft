@@ -12,6 +12,7 @@ import niix.dan.ncraft.item.custom.SanityFragment;
 
 public class ModItems {
 
+    // Por algum motivo, n ta recuperando fome, apenas a sanidade \/
     public static final Item SANITY_FRAGMENT = registerItem("fragment",
             new SanityFragment(new FabricItemSettings().food(new FoodComponent.Builder()
                     .alwaysEdible()
