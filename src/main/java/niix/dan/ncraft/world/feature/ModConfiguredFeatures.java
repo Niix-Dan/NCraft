@@ -25,6 +25,7 @@ public class ModConfiguredFeatures {
             ));
 
 
+    // Preciso arrumar o bloco de terra no pé da arvore, preciso mudar para o bloco de void
     public static final RegistryEntry<ConfiguredFeature<TreeFeatureConfig, ?>> WHITE_CEDAR_TREE =
             ConfiguredFeatures.register("white_cedar_tree", Feature.TREE, new TreeFeatureConfig.Builder(
                     BlockStateProvider.of(ModBlocks.WHITE_CEDAR_LOG),
