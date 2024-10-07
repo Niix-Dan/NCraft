@@ -1,13 +1,7 @@
 package niix.dan.ncraft.world.feature;
 
-import net.minecraft.util.math.intprovider.ConstantIntProvider;
 import net.minecraft.util.registry.RegistryEntry;
 import net.minecraft.world.gen.feature.*;
-import net.minecraft.world.gen.feature.size.TwoLayersFeatureSize;
-import net.minecraft.world.gen.foliage.SpruceFoliagePlacer;
-import net.minecraft.world.gen.stateprovider.BlockStateProvider;
-import net.minecraft.world.gen.trunk.GiantTrunkPlacer;
-import net.minecraft.world.gen.trunk.StraightTrunkPlacer;
 import niix.dan.ncraft.NCraft;
 import niix.dan.ncraft.block.ModBlocks;
 

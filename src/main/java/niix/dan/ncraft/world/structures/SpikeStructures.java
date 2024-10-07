@@ -9,12 +9,10 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.ChunkPos;
 import net.minecraft.util.registry.RegistryEntry;
 import net.minecraft.world.Heightmap;
-import net.minecraft.world.gen.HeightContext;
 import net.minecraft.world.gen.heightprovider.HeightProvider;
 import net.minecraft.world.gen.structure.Structure;
 import net.minecraft.world.gen.structure.StructureType;
 import niix.dan.ncraft.world.dimension.ModStructures;
-import org.apache.logging.log4j.Level;
 
 import java.util.Optional;
 
