@@ -1,5 +1,5 @@
 {
-  "name": "ncraft:cedar_tree_pool",
+  "name": "ncraft:cedar_trees_pool",
   "fallback": "minecraft:empty",
   "elements": [
     {
