@@ -1,0 +1,17 @@
+
+
+Lista do que falta fazer:
+
+
+Criar nova geração de arvores, definir novos nbt para cada arvore (umas 12 variações da pra começar)
+Usar a mesma geracao dos spikes para a arvore
+
+
+Criar novas texturas para novos items variados
+
+inventar novos items
+
+
+criar crafts e formas de entrar na dimensão;
+
+
