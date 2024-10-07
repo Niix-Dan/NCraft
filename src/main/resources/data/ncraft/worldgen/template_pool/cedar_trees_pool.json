@@ -1,0 +1,186 @@
+{
+  "name": "ncraft:cedar_tree_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "ncraft:cedar_trees/tree1",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "processors": "ncraft:spruce_to_cedar"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "ncraft:cedar_trees/tree2",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "processors": "ncraft:spruce_to_cedar"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "ncraft:cedar_trees/tree3",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "processors": "ncraft:spruce_to_cedar"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "ncraft:cedar_trees/tree4",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "processors": "ncraft:spruce_to_cedar"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "ncraft:cedar_trees/tree5",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "processors": "ncraft:spruce_to_cedar"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "ncraft:cedar_trees/tree6",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "processors": "ncraft:spruce_to_cedar"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "ncraft:cedar_trees/tree7",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "processors": "ncraft:spruce_to_cedar"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "ncraft:cedar_trees/tree8",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "processors": "ncraft:spruce_to_cedar"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "ncraft:cedar_trees/tree9",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "processors": "ncraft:spruce_to_cedar"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "ncraft:cedar_trees/tree10",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "processors": "ncraft:spruce_to_cedar"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "ncraft:cedar_trees/tree11",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "processors": "ncraft:spruce_to_cedar"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "ncraft:cedar_trees/tree12",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "processors": "ncraft:spruce_to_cedar"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "ncraft:cedar_trees/tree13",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "processors": "ncraft:spruce_to_cedar"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "ncraft:cedar_trees/tree14",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "processors": "ncraft:spruce_to_cedar"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "ncraft:cedar_trees/tree15",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "processors": "ncraft:spruce_to_cedar"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "ncraft:cedar_trees/tree16",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "processors": "ncraft:spruce_to_cedar"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "ncraft:cedar_trees/tree17",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "processors": "ncraft:spruce_to_cedar"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "ncraft:cedar_trees/tree18",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "processors": "ncraft:spruce_to_cedar"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "ncraft:cedar_trees/tree19",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "processors": "ncraft:spruce_to_cedar"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "ncraft:cedar_trees/tree20",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "processors": "ncraft:spruce_to_cedar"
+      }
+    }
+  ]
+}

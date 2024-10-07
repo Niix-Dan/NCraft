@@ -5,7 +5,7 @@
     {
       "weight": 1,
       "element": {
-        "location": "ncraft:spike1",
+        "location": "ncraft:spikes/spike1",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element",
         "processors": "ncraft:randomize_spike"
@@ -14,7 +14,7 @@
     {
       "weight": 1,
       "element": {
-        "location": "ncraft:spike2",
+        "location": "ncraft:spikes/spike2",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element",
         "processors": "ncraft:randomize_spike"
@@ -23,7 +23,7 @@
     {
       "weight": 1,
       "element": {
-        "location": "ncraft:spike3",
+        "location": "ncraft:spikes/spike3",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element",
         "processors": "ncraft:randomize_spike"
@@ -32,7 +32,7 @@
     {
       "weight": 1,
       "element": {
-        "location": "ncraft:spike4",
+        "location": "ncraft:spikes/spike4",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element",
         "processors": "ncraft:randomize_spike"
@@ -41,7 +41,7 @@
     {
       "weight": 1,
       "element": {
-        "location": "ncraft:spike5",
+        "location": "ncraft:spikes/spike5",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element",
         "processors": "ncraft:randomize_spike"
@@ -50,7 +50,7 @@
     {
       "weight": 1,
       "element": {
-        "location": "ncraft:spike6",
+        "location": "ncraft:spikes/spike6",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element",
         "processors": "ncraft:randomize_spike"
@@ -59,7 +59,7 @@
     {
       "weight": 1,
       "element": {
-        "location": "ncraft:spike7",
+        "location": "ncraft:spikes/spike7",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element",
         "processors": "ncraft:randomize_spike"
@@ -68,7 +68,7 @@
     {
       "weight": 1,
       "element": {
-        "location": "ncraft:spike8",
+        "location": "ncraft:spikes/spike8",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element",
         "processors": "ncraft:randomize_spike"
@@ -77,7 +77,7 @@
     {
       "weight": 1,
       "element": {
-        "location": "ncraft:spike9",
+        "location": "ncraft:spikes/spike9",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element",
         "processors": "ncraft:randomize_spike"
@@ -86,7 +86,7 @@
     {
       "weight": 1,
       "element": {
-        "location": "ncraft:spike10",
+        "location": "ncraft:spikes/spike10",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element",
         "processors": "ncraft:randomize_spike"
@@ -95,7 +95,7 @@
     {
       "weight": 1,
       "element": {
-        "location": "ncraft:spike11",
+        "location": "ncraft:spikes/spike11",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element",
         "processors": "ncraft:randomize_spike"
@@ -104,7 +104,7 @@
     {
       "weight": 1,
       "element": {
-        "location": "ncraft:spike12",
+        "location": "ncraft:spikes/spike12",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element",
         "processors": "ncraft:randomize_spike"
@@ -113,7 +113,7 @@
     {
       "weight": 1,
       "element": {
-        "location": "ncraft:spike13",
+        "location": "ncraft:spikes/spike13",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element",
         "processors": "ncraft:randomize_spike"
@@ -122,7 +122,7 @@
     {
       "weight": 1,
       "element": {
-        "location": "ncraft:spike14",
+        "location": "ncraft:spikes/spike14",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element",
         "processors": "ncraft:randomize_spike"

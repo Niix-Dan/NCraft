@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "ncraft:cedar_trees",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1292252687,
+    "spacing": 8,
+    "separation": 3
+  }
+}
