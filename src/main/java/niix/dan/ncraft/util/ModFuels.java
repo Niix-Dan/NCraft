@@ -19,7 +19,6 @@ public class ModFuels {
         registry.add(ModBlocks.WHITE_CEDAR_SLAB, 150);
         registry.add(ModBlocks.WHITE_CEDAR_STAIRS, 300);
         registry.add(ModBlocks.WHITE_CEDAR_TRAPDOOR, 300);
-        registry.add(ModBlocks.WHITE_CEDAR_SAPLING, 100);
     }
 
 }
