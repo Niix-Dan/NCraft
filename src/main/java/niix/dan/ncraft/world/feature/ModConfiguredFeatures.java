@@ -25,27 +25,6 @@ public class ModConfiguredFeatures {
             ));
 
 
-    // Preciso arrumar o bloco de terra no pé da arvore, preciso mudar para o bloco de void
-    public static final RegistryEntry<ConfiguredFeature<TreeFeatureConfig, ?>> WHITE_CEDAR_TREE =
-            ConfiguredFeatures.register("white_cedar_tree", Feature.TREE, new TreeFeatureConfig.Builder(
-                    BlockStateProvider.of(ModBlocks.WHITE_CEDAR_LOG),
-                    new StraightTrunkPlacer(7, 12, 6),
-                    BlockStateProvider.of(ModBlocks.WHITE_CEDAR_LEAVES),
-                    new SpruceFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(0), ConstantIntProvider.create(6)),
-                    new TwoLayersFeatureSize(1, 0, 2)
-            ).build());
-
-    public static final RegistryEntry<PlacedFeature> WHITE_CEDAR_CHECKED = PlacedFeatures.register("white_cedar_checked",
-            ModConfiguredFeatures.WHITE_CEDAR_TREE, List.of(
-                    PlacedFeatures.wouldSurvive(ModBlocks.WHITE_CEDAR_SAPLING)
-            ));
-
-    public static final RegistryEntry<ConfiguredFeature<RandomFeatureConfig, ?>> WHITE_CEDAR_SPAWN =
-            ConfiguredFeatures.register("white_cedar_spawn", Feature.RANDOM_SELECTOR,
-                    new RandomFeatureConfig(List.of(
-                        new RandomFeatureEntry(WHITE_CEDAR_CHECKED, 0.5f)
-                    ), WHITE_CEDAR_CHECKED));
-
 
     public static void register() {
         NCraft.LOGGER.debug("Registering ModConfiguredFeatures for "+NCraft.MOD_ID);

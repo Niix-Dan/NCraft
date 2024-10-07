@@ -7,13 +7,11 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 import niix.dan.ncraft.util.IEntityDataSaver;
 import niix.dan.ncraft.util.SanityData;
-import niix.dan.ncraft.world.dimension.ModDimensions;
 
 public class SanityFragment extends Item {
     public SanityFragment(Settings settings) {
         super(settings);
     }
-
 
     @Override
     public boolean hasGlint(ItemStack item) {
@@ -29,6 +27,9 @@ public class SanityFragment extends Item {
 
                 IEntityDataSaver dataPlayer = ((IEntityDataSaver) player);
                 SanityData.addSanity(dataPlayer, 0.5f);
+
+                // Temporário, ate descobrir prq a comida n recupera \/
+                player.getHungerManager().add(1, 0.2f);
             }
         }
 

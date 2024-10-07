@@ -1,8 +1,6 @@
 package niix.dan.ncraft.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.minecraft.entity.effect.StatusEffectInstance;
-import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
@@ -16,8 +14,8 @@ public class ModItems {
     public static final Item SANITY_FRAGMENT = registerItem("fragment",
             new SanityFragment(new FabricItemSettings().food(new FoodComponent.Builder()
                     .alwaysEdible()
-                    .hunger(2)
-                    .saturationModifier(0.2f)
+                    .hunger(0)
+                    .saturationModifier(0.0f)
                     .build()
             ).group(ModItemGroup.NCRAFT)));
 

@@ -12,19 +12,15 @@ import net.minecraft.util.registry.Registry;
 import niix.dan.ncraft.NCraft;
 import niix.dan.ncraft.block.custom.Void_Grass;
 import niix.dan.ncraft.block.custom.Void_Soil;
-import niix.dan.ncraft.block.custom.White_Cedar_Sapling;
 import niix.dan.ncraft.item.ModItemGroup;
-import niix.dan.ncraft.world.feature.tree.WhiteCedarSaplingGenerator;
 
 public class ModBlocks {
-
 
     public static final Block OBLIVION_VOID = registerBlock("void",
             new Void_Soil(FabricBlockSettings.of(Material.SOIL)), ModItemGroup.NCRAFT);
 
     public static final Block OBLIVION_GRASS = registerBlock("void_grass",
             new Void_Grass(FabricBlockSettings.of(Material.PLANT)), ModItemGroup.NCRAFT);
-
 
     public static final Block OTHALT_BLOCK = registerBlock("othalt_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()),
@@ -59,9 +55,6 @@ public class ModBlocks {
 
     public static final Block WHITE_CEDAR_PLANKS = registerBlock("white_cedar_planks",
             new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS)), ModItemGroup.NCRAFT);
-
-    public static final Block WHITE_CEDAR_SAPLING = registerBlock("white_cedar_sapling",
-            new White_Cedar_Sapling(new WhiteCedarSaplingGenerator(), FabricBlockSettings.copy(Blocks.OAK_SAPLING)), ModItemGroup.NCRAFT);
 
     public static final Block WHITE_CEDAR_SLAB = registerBlock("white_cedar_slab",
             new SlabBlock(FabricBlockSettings.copy(Blocks.OAK_SLAB)), ModItemGroup.NCRAFT);
