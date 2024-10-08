@@ -7,8 +7,6 @@ import net.minecraft.util.Identifier;
 import niix.dan.ncraft.NCraft;
 
 public class ModItemGroup {
-
     public static final ItemGroup NCRAFT = FabricItemGroupBuilder
             .build(new Identifier(NCraft.MOD_ID, "nicraft"), () -> new ItemStack(ModItems.RAW_OTHALT));
-
 }

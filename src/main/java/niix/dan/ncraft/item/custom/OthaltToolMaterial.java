@@ -7,7 +7,6 @@ import niix.dan.ncraft.item.ModItems;
 public class OthaltToolMaterial implements ToolMaterial {
     public static final OthaltToolMaterial INSTANCE = new OthaltToolMaterial();
 
-
     @Override
     public int getDurability() {
         return 1841;

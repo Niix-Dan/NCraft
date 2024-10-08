@@ -8,7 +8,7 @@ public class Void_Soil extends Block {
     public Void_Soil(FabricBlockSettings settings) {
         super(settings
                 .strength(1.0f)
-                .sounds(BlockSoundGroup.MOSS_BLOCK)
+                .sounds(BlockSoundGroup.SCULK)
         );
     }
 }

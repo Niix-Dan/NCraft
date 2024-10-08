@@ -43,6 +43,40 @@
           },
           "input_predicate": {
             "predicate_type": "minecraft:block_match",
+            "block": "minecraft:dark_oak_log"
+          },
+          "output_state": {
+            "Name": "ncraft:white_cedar_log"
+          }
+        }
+      ]
+    },
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:dark_oak_wood"
+          },
+          "output_state": {
+            "Name": "ncraft:white_cedar_wood"
+          }
+        }
+      ]
+    },
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
             "block": "minecraft:spruce_leaves"
           },
           "output_state": {

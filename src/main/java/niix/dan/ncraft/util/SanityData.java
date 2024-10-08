@@ -9,9 +9,9 @@ import niix.dan.ncraft.networking.ModMessages;
 
 public class SanityData {
     public static float addSanity(IEntityDataSaver player, float amount) {
-
         NbtCompound nbt = player.getPersistentData();
         float sanity = nbt.getFloat("sanity");
+        if(!nbt.contains("sanity")) sanity = 100;
 
         sanity = Math.min(100, sanity + amount);
 
@@ -22,9 +22,9 @@ public class SanityData {
     }
 
     public static float removeSanity(IEntityDataSaver player, float amount) {
-
         NbtCompound nbt = player.getPersistentData();
         float sanity = nbt.getFloat("sanity");
+        if(!nbt.contains("sanity")) sanity = 100;
 
         sanity = Math.max(0, sanity - amount);
 

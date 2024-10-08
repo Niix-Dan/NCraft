@@ -15,7 +15,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(InGameHud.class)
 public class InGameHudMixin extends DrawableHelper {
-
     private static final int BAR_WIDTH = 100;
     private static final int BAR_HEIGHT = 10;
 
@@ -25,31 +24,25 @@ public class InGameHudMixin extends DrawableHelper {
         PlayerEntity player = client.player;
 
         if (player != null) {
-
             float sanity = ((IEntityDataSaver) player).getPersistentData().getFloat("sanity");
-
             if(sanity >= 100) return;
 
             int scaledWidth = client.getWindow().getScaledWidth();
             int scaledHeight = client.getWindow().getScaledHeight();
 
-            // Configurações de posicionamento no canto superior esquerdo
-            int barX = 25; // Distância do lado esquerdo
-            int barY = 25; // Distância do topo
+            int barX = 25;
+            int barY = 25;
 
-            // Fundo da barra de sanidade
             RenderSystem.disableBlend();
             fill(matrices, barX, barY, barX + BAR_WIDTH, barY + BAR_HEIGHT, 0xFF000000);
 
-            // Barra de sanidade preenchida
             int filledWidth = (Math.round(sanity) * BAR_WIDTH) / 100;
-            fill(matrices, barX, barY, barX + filledWidth, barY + BAR_HEIGHT, 0xFF00FF00); // Verde para a barra
+            fill(matrices, barX, barY, barX + filledWidth, barY + BAR_HEIGHT, 0xFF00FF00);
 
-            // Texto "Sanity: X%" em vermelho
             String sanityText = "Sanity: " + Math.round(sanity) + "%";
-            int textX = barX; // Alinhado ao lado esquerdo da barra
-            int textY = barY - 15; // Posicionado acima da barra
-            client.textRenderer.draw(matrices, sanityText, textX, textY, 0xFFFF0000); // Texto em vermelho
+            int textX = barX;
+            int textY = barY - 15;
+            client.textRenderer.draw(matrices, sanityText, textX, textY, 0xFFFF0000);
         }
     }
 }

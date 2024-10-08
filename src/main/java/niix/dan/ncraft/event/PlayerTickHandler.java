@@ -25,8 +25,8 @@ public class PlayerTickHandler implements ServerTickEvents.StartTick {
                     // Suposto a zerar a sanidade após 10 minutos \/
                     SanityData.removeSanity(dataPlayer, 0.1667f);
                 } else {
-                    // Suposto a recuperar toda a sanidade após 3,33 minutos \/
-                    SanityData.addSanity(dataPlayer, 0.5f);
+                    // Suposto a recuperar toda a sanidade após 1,667 minutos \/
+                    SanityData.addSanity(dataPlayer, 1);
                 }
             }
         }

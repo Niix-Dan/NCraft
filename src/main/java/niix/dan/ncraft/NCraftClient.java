@@ -8,8 +8,6 @@ import niix.dan.ncraft.networking.ModMessages;
 import niix.dan.ncraft.particle.ModParticles;
 
 public class NCraftClient implements ClientModInitializer {
-
-
     @Override
     public void onInitializeClient() {
         ModMessages.registerS2CPackets();

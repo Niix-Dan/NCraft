@@ -8,6 +8,7 @@ import niix.dan.ncraft.event.PlayerTickHandler;
 import niix.dan.ncraft.item.ModItems;
 import niix.dan.ncraft.networking.ModMessages;
 import niix.dan.ncraft.particle.ModParticles;
+import niix.dan.ncraft.tables.ModLootTables;
 import niix.dan.ncraft.util.ModFlammableBlocks;
 import niix.dan.ncraft.util.ModFuels;
 import niix.dan.ncraft.util.ModStrippableBlocks;
@@ -21,7 +22,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class NCraft implements ModInitializer {
-
     public static final String MOD_ID = "ncraft";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
@@ -33,22 +33,20 @@ public class NCraft implements ModInitializer {
         ModBlocks.registerModBlocks();
 
         ModMessages.registerC2SPackets();
-
         ModParticles.registerServerParticles();
 
         ModDimensions.register();
         ModBiomes.register();
         ModFeatures.register();
         ModStructures.register();
-
         ModWorldGen.generateWorldGen();
 
         ModStrippableBlocks.register();
         ModFlammableBlocks.register();
         ModFuels.register();
 
-        ServerTickEvents.START_SERVER_TICK.register(new PlayerTickHandler());
-        // Área de testes;
+        ModLootTables.register();
 
+        ServerTickEvents.START_SERVER_TICK.register(new PlayerTickHandler());
     }
 }

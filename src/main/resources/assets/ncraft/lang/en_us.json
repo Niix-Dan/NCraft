@@ -5,28 +5,15 @@
   "item.ncraft.othalt_shovel": "Othalt Shovel",
   "item.ncraft.othalt_hoe": "Othalt Hoe",
 
+  "item.ncraft.othalt_helmet": "Othalt Helmet",
+  "item.ncraft.othalt_chestplate": "Othalt Chestplate",
+  "item.ncraft.othalt_leggings": "Othalt Leggings",
+  "item.ncraft.othalt_boots": "Othalt Boots",
+
   "item.ncraft.fragment": "Sanity Fragment",
 
   "item.ncraft.raw_othalt": "Raw Othalt",
   "item.ncraft.othalt_ingot": "Othalt Ingot",
-
-  "item.ncraft.othalt_ore": "Othalt Ore",
-  "item.ncraft.deepslate_othalt_ore": "Deepslate Othalt Ore",
-  "item.ncraft.othalt_block": "Othalt Block",
-
-  "item.ncraft.void": "Void",
-  "item.ncraft.void_grass": "Void Grass",
-
-  "item.ncraft.white_cedar_log": "White Cedar Log",
-  "item.ncraft.white_cedar_stripped_log": "White Cedar Stripped Log",
-  "item.ncraft.white_cedar_wood": "White Cedar Wood",
-  "item.ncraft.white_cedar_stripped_wood": "White Cedar Stripped Wood",
-  "item.ncraft.white_cedar_door": "White Cedar Door",
-  "item.ncraft.white_cedar_leaves": "White Cedar Leaves",
-  "item.ncraft.white_cedar_planks": "White Cedar Planks",
-  "item.ncraft.white_cedar_trapdoor": "White Cedar Trapdoor",
-  "item.ncraft.white_cedar_stairs": "White Cedar Stairs",
-  "item.ncraft.white_cedar_slab": "White Cedar Slab",
 
   "block.ncraft.othalt_ore": "Othalt Ore",
   "block.ncraft.deepslate_othalt_ore": "Deepslate Othalt Ore",

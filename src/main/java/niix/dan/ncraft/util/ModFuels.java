@@ -4,7 +4,6 @@ import net.fabricmc.fabric.api.registry.FuelRegistry;
 import niix.dan.ncraft.block.ModBlocks;
 
 public class ModFuels {
-
     public static void register() {
         FuelRegistry registry = FuelRegistry.INSTANCE;
 
